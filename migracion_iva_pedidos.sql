@@ -1,0 +1,1 @@
+ALTER TABLE bonilla_orders ADD COLUMN include_vat TINYINT(1) NOT NULL DEFAULT 1;

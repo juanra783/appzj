@@ -1,0 +1,3 @@
+ALTER TABLE bonilla_clients
+  ADD COLUMN localidad VARCHAR(120) NULL,
+  ADD COLUMN route_order INT NOT NULL DEFAULT 0;
